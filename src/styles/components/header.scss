@@ -1,0 +1,33 @@
+header {
+  color: white;
+  z-index: 999;
+  position: relative;
+
+  nav {
+    padding: 75px 100px;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    ul {
+      display: flex;
+      list-style: none;
+      padding-left: 0;
+      flex-grow: 1;
+      gap: 20px;
+      justify-content: center;
+      margin: 0;
+
+      li {
+        &.active {
+          padding: 2px 14px;
+          border-radius: 5px;
+          background: #98B4AA;
+          color: #203239;
+        }
+      }
+    }
+  }
+}
